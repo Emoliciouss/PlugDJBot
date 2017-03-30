@@ -241,7 +241,7 @@
         name: "AllMetalBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Emoliciouss/PlugDJBot/master/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
+        cmdLink: "https://git.io/vSn44",
         chatLink: "https://rawgit.com/Emoliciouss/PlugDJBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
