@@ -240,7 +240,7 @@
         status: false,
         name: "AllMetalBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Emoliciouss/PlugDJBot/master/basicBot.js",
+        scriptLink: "https://rawgit.com/Emoliciouss/PlugDJBot/master/AllMetalBot.js",
         cmdLink: "https://git.io/vSn44",
         chatLink: "https://rawgit.com/Emoliciouss/PlugDJBot/master/lang/en.json",
         chat: null,
@@ -251,7 +251,7 @@
             botName: "AllMetalBot",
             language: "english",
             chatLink: "https://rawgit.com/Emoliciouss/PlugDJBot/master/lang/en.json",
-            scriptLink: "https://rawgit.com/Emoliciouss/PlugDJBot/master/basicBot.js",
+            scriptLink: "https://rawgit.com/Emoliciouss/PlugDJBot/master/AllMetalBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
