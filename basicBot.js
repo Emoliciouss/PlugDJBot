@@ -270,9 +270,9 @@
             maximumLocktime: 10,
             cycleGuard: true,
             maximumCycletime: 10,
-            voteSkip: false,
+            voteSkip: true,
             voteSkipLimit: 10,
-            historySkip: false,
+            historySkip: true,
             timeGuard: true,
             maximumSongLength: 10,
             autodisable: false,
@@ -3106,6 +3106,18 @@
                 }
             },
 
+            wootcommand: {
+                command: 'woot',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat('/me To this song? Hell noh!');
+                    }
+                }
+            },
             statusCommand: {
                 command: 'status',
                 rank: 'bouncer',
