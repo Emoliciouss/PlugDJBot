@@ -238,7 +238,7 @@
     var basicBot = {
         version: "1.0",
         status: false,
-        name: "MagixBot",
+        name: "AllMetalBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Emoliciouss/PlugDJBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -248,7 +248,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "MagixBot",
+            botName: "AllMetalBot",
             language: "english",
             chatLink: "https://rawgit.com/Emoliciouss/PlugDJBot/master/lang/en.json",
             scriptLink: "https://rawgit.com/Emoliciouss/PlugDJBot/master/basicBot.js",
