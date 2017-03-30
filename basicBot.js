@@ -236,7 +236,7 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "1.0",
+        version: "1.0.5",
         status: false,
         name: "AllMetalBot",
         loggedInID: null,
@@ -3114,7 +3114,59 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        API.sendChat('/me To this song? Hell noh!');
+                        API.sendChat('/me Ooohh I love this song...Oh wait, no...this one sucks!');
+                    }
+                }
+            },
+
+            stripteasecommand: {
+                command: 'striptease',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat('/me You first..');
+                    }
+                }
+            },
+
+             metalcommand: {
+                command: ':metal:',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat('/me Dude, is my face okay? I think you melted it off!');
+                    }
+                }
+            },
+
+              rockcommand: {
+                command: 'rock',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat('/me Now raise your goblet of rock. It\'s a toast to those who rock!');
+                    }
+                }
+            },
+
+            guncommand: {
+                command: ':gun:',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat('/me Pew...PewPew...Pew -_- just stop.');
                     }
                 }
             },
